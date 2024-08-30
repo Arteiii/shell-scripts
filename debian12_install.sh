@@ -14,6 +14,8 @@ SCRIPT_LIST=(
   "./additional_software/essentials_i.sh"
   "./additional_software/rust_i.sh"
   "./additional_software/clang_i.sh"
+  "./additional_software/fonts/install_jetbrains_nerdfont.sh"
+  "./config/git_config_arteii.sh"
 )
 
 for script in "${SCRIPT_LIST[@]}"; do
